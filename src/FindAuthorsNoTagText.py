@@ -1,6 +1,6 @@
 file_to_write = open('authors_no_tag_text_results.txt', 'w', encoding="utf8", errors="replace")
 import os
-list_of_possible_tags = ['APPEAL', 'FULL']
+list_of_possible_tags = ['FULL COURT', 'COURT OF APPEAL', 'COURT OF CRIMINAL APPEAL', 'FULL BENCH']
 
 with open('authors_no_tag_text.txt', 'r', encoding="utf8", errors="replace") as list_of_files_to_read:
     lines_in_files_to_read = list_of_files_to_read.readlines()
